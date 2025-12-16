@@ -19,5 +19,18 @@ for a course project.
   - Medications
 - Provides separate scripts for training and inference
 
+This repository is organized as follows:
+	•	train/
+	•	train_model.py
+  Training script for fine-tuning the Qwen Instruct model on MIMIC clinical notes.
+  It loads the dataset, constructs instruction-style prompts, and performs supervised fine-tuning.
+  
+	•	infer/
+	•	infer.py
+  Inference script for running the fine-tuned model on new clinical notes.
+  It generates structured medical keywords including diseases, symptoms, and treatments.
+  
+	•	rag/
+	•	Contains experiments related to retrieval augmented generation, including embedding, retrieval, and reranking using clinical               keyword data.
 
 
