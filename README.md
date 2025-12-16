@@ -34,6 +34,6 @@ This repository is organized as follows:
 	•	rag/
 	•   rag.ipynb
 	•	mimic_dataset_600_keywords.csv
-	•	Contains experiments related to retrieval augmented generation, including embedding, retrieval, and reranking using clinical               keyword data.
+  Contains experiments related to retrieval augmented generation, including embedding, retrieval, and reranking using clinical                 keyword data.
 
 
