@@ -1,0 +1,15 @@
+# PyCharm
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+
+# Model checkpoints
+med_extractor_ckpt/
+med_extractor_final/
+runs/
+
+# Mac
+.DS_Store
