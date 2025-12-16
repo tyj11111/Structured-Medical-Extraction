@@ -20,6 +20,7 @@ for a course project.
 - Provides separate scripts for training and inference
 
 This repository is organized as follows:
+
 	•	train/
 	•	train_model.py
   Training script for fine-tuning the Qwen Instruct model on MIMIC clinical notes.
