@@ -32,6 +32,8 @@ This repository is organized as follows:
   It generates structured medical keywords including diseases, symptoms, and treatments.
   
 	•	rag/
+	•   rag.ipynb
+	•	mimic_dataset_600_keywords.csv
 	•	Contains experiments related to retrieval augmented generation, including embedding, retrieval, and reranking using clinical               keyword data.
 
 
