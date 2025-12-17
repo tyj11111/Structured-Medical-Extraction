@@ -22,7 +22,7 @@ for a course project.
 This repository is organized as follows:
 	•	train/
 	•	train_model.py
-	•	train_model_Llama-1.1B.py	LoRA (Low-Rank Adaptation)
+	•	train_model_Llama-1.1B.py	LoRA (Low-Rank Adaptation)Freeze the original 1.1 billion parameters and only train some very small "adapter" matrices attached to the side.
 	
   Training script for fine-tuning the Qwen Instruct model on MIMIC clinical notes.
   It loads the dataset, constructs instruction-style prompts, and performs supervised fine-tuning.
